@@ -1,0 +1,68 @@
+#ind {
+    background-color: rgb(235, 245, 244);
+}
+
+#header {
+    display: flex;           /* put logo + text in one line */
+    align-items: center;     /* vertical alignment */
+    justify-content: center; /* center both in the middle */
+    padding: 20px;
+}
+
+#lo {
+    height: 150px;            /* smaller logo size */
+    margin-right: 15px;      /* space between logo and text */
+}
+
+#sc {
+    color: rgb(65, 155, 193);
+    font-size: 50px;
+    font-weight: bold;
+    background-color: rgb(234, 240, 242);
+    padding: 10px;
+}
+
+#log{
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+#ilog{
+    height: 40px;
+    width: 20%;
+    color: goldenrod;
+}
+
+#tab{
+    text-align: center;
+    height: 40px;
+    width: 80%;
+    color: rgb(235, 98, 13);
+    border-radius: 5px;
+    
+    
+    
+}
+#msg{
+    font-size: 50px;
+    color: aqua;
+
+}
+
+#prod{
+    
+   background-image: url('s1.png');  /* your background image */
+    background-size: cover;           /* scale to cover entire page */
+    background-repeat: no-repeat;     /* don’t repeat */
+    background-position: center;      /* center the image */
+    min-height: 100vh; 
+    
+}
+
+#pt{
+    width: 85%;
+    text-align: center;
+    background-color: rgb(238, 238, 238);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
